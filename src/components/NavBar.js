@@ -14,8 +14,7 @@ const link = {
 const NavBar = () => {
   return (
     <div>
-      {/*{code here}*/ /* add the navbar component */
-
+      {/*{code here}*/ /* add the navbar component */}
       <NavLink
         to="/"
         /* set exact so it knows to only set activeStyle when route is deeply equal to link */
@@ -47,7 +46,6 @@ const NavBar = () => {
         activeStyle={{
           background: 'darkblue'
         }}>Actors Page</NavLink>
-    }
     </div>
   );
 };
