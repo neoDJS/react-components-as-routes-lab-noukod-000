@@ -14,6 +14,12 @@ const App = (props) => {
   return (
     <Router>
       {/*{code here}*/}
+      <React.Fragment>
+        <Navbar />
+        <Route exact path="/" component ={Home} />
+        <Route exact path="/about" component ={About} />
+        <Route exact path="/login" component ={Login} />
+      </React.Fragment>
     </Router>
   );
 };
