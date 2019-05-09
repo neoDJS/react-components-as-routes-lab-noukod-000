@@ -15,8 +15,7 @@ const NavBar = () => {
   return (
     <div>
       {/*{code here}*/ /* add the navbar component */}
-      <NavLink
-        to="/"
+      <NavLink to="/"
         /* set exact so it knows to only set activeStyle when route is deeply equal to link */
         exact
         /* add styling to Navlink */
